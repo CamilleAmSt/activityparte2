@@ -50,7 +50,7 @@
   
  **4. Correção de erros**
  
- O arquivo _" _ test _/grava(...)"_ apresenta alguns erros indicados pelo VSCode. Antes de ser compilado o codgio precisa reconhecer _("jtest", "test", "expect")_ ultilizados no codigo. A sugestão para serem reconhecidos é importar a _"Jest APIs"_, é possivel fazer isso adicionando ao inicio do arquivo o comando _"import {expect, jest, test} from '@jest/globals';"_ após isso os errosé possível compilar o arquivo e verificar se o mesmo funciona como esperado
+ O arquivo _" _ test _/grava(...)"_ apresenta alguns erros indicados pelo VSCode. Antes de ser compilado o codigo precisa reconhecer _("jtest", "test", "expect")_ . A sugestão para estes comandos serem reconhecidos é importar a _"Jest APIs"_. É possivel fazer isso adicionando ao início do arquivo o comando _"import {expect, jest, test} from '@jest/globals';"_ .Corrigindo isso é possível compilar o arquivo e verificar se o mesmo funciona como esperado.
  
   
  **5. Sugestão de funcionalidade: adição de rotas**
