@@ -53,7 +53,7 @@
  O arquivo _" _ test _/grava(...)"_ apresenta alguns erros indicados pelo VSCode. Antes de ser compilado o codgio precisa reconhecer _("jtest", "test", "expect")_ ultilizados no codigo. A sugestão para serem reconhecidos é importar a _"Jest APIs"_, é possivel fazer isso adicionando ao inicio do arquivo o comando _"import {expect, jest, test} from '@jest/globals';"_ após isso os errosé possível compilar o arquivo e verificar se o mesmo funciona como esperado
  
   
- **5. Sugestão de funcionalidade: manipulação de rotas**
+ **5. Sugestão de funcionalidade: adição de rotas**
   
   As rotas definidas no projeto apresentam a opção de selecionar a camera desejada no dia desejado. O cliente pode selecionar o dia que ele quer ter acesso e todos os videos daquele dia são mostrados. Estabelecientos franqueados podem ter mais de um turno de trabalho podendo chegar a funcionar 24 horas por dia. Diferentes turnos podem ter diferentes demandas devido ao movimento variar e acordo com o horario. Ao ocorrer a troca de turno os funcionarios também são trocados, para o proprietario é mais facil ser notificado dos problemas de cada turno e assim acessar os videos de cada turno.
   A proposta de melhoria nesse caso seria criar mais seis rotas e as respectivas funções :
